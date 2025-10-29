@@ -1,13 +1,11 @@
 require('dotenv').config();
 
-
-
    const development = {
     username: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE,
     host: process.env.DB_HOST,
-    PORT: process.env.DB_PORT,
+    port: process.env.DB_PORT,
     dialect: process.env.DB_DIALECT
 
   };
@@ -16,7 +14,7 @@ require('dotenv').config();
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE,
     host: process.env.DB_HOST,
-    PORT: process.env.DB_PORT,
+    port: process.env.DB_PORT,
     dialect: process.env.DB_DIALECT
   };
   const production = {
@@ -24,7 +22,7 @@ require('dotenv').config();
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE,
     host: process.env.DB_HOST,
-    PORT: process.env.DB_PORT,
+    port: process.env.DB_PORT,
     dialect: process.env.DB_DIALECT
   };
 
